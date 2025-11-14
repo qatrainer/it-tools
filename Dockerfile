@@ -1,4 +1,5 @@
 # build stage
+# from Peter
 FROM node:lts-alpine AS build-stage
 # Set environment variables for non-interactive npm installs
 ENV NPM_CONFIG_LOGLEVEL warn
